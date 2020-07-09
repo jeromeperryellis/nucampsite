@@ -28,6 +28,9 @@ header h2 {
 .navbar {
   background-color: #901CAD; }
 
+.carousel {
+  border: solid #5637dd; }
+
 .tab-content {
   border: 1px solid #DDD;
   border-top: none;
@@ -35,9 +38,6 @@ header h2 {
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
-
-.carousel {
-  border: solid #5637dd; }
 
 #carouselButton {
   position: absolute;

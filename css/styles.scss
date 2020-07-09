@@ -17,12 +17,12 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: $color-primary
+    color: $color-primary;
 }
 
 header {
     h2 {
-    color: $color-pale
+        color: $color-pale;
     }
 }
 
@@ -34,8 +34,7 @@ header {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, $color-secondary,
-    $color-primary, $color-dark);
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
     color: white;
 }
 
@@ -49,6 +48,10 @@ header {
     background-color: $color-mid;
 }
 
+.carousel {
+    border: solid $color-secondary;
+}
+
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
@@ -57,10 +60,6 @@ header {
 
 .carousel-caption {
     background-color: $color-black-transparent;
-}
-
-.carousel {
-    border: solid $color-secondary;
 }
 
 #carouselButton {
